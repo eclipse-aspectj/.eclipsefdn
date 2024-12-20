@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-aspectj') {
+orgs.newOrg('tools.aspectj', 'eclipse-aspectj') {
   settings+: {
     description: "",
     name: "Eclipse Aspectj",
